@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-cover {
+  background-image: url("./image/cover.png");
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.navbar-brand {
+  text-align: center;
+}
+
+header.bg-cover,
+footer {
+  background-color: #bbbcbd;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+.animated {
+  animation-duration: 1s;
+}
+
+.fadeInDown {
+  animation-name: fadeInDown;
+}
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.running-text {
+  font-size: 18px;
+  text-align: center;
+  animation: running 10s infinite;
+}
+
+@keyframes running {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.highlight {
+  color: #ff5722;
+}
+
+#dropzone {
+  margin-top: 30px;
+}
+
+.dropzone-box {
+  border: 2px dashed #007bff;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.dropzone-box img {
+  width: 50px;
+  margin: 0 auto 10px;
+  display: block;
+}
+
+.dropzone-text {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #666;
+}
